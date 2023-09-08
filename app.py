@@ -34,5 +34,5 @@ def get_stage1():
     return jsonify(response)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8090)
+    app.run(debug=True, port=8080)
 
